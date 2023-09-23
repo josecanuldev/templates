@@ -1,0 +1,74 @@
+# Ignorar archivos temporales creados por el sistema operativo
+.DS_Store
+panel/.DS_Store
+blog/.DS_Store
+admin/.DS_Store
+Thumbs.db
+
+# Ignorar en todas las subcarpetas
+**/.DS_Store
+
+# Ignorar archivos y directorios generados por el IDE PHPStorm
+.idea/
+
+# Ignorar archivos de registro
+*.log
+*.vscode
+panel/*.vscode
+blog/*.vscode
+admin/*.vscode
+
+error_log
+img/
+
+panel/error_log
+blog/error_log
+admin/error_log
+
+panel/.prettierignore
+blog/.prettierignore
+admin/.prettierignore
+
+# Panel
+panel/config/
+panel/clases/conexion.php
+panel/clases/MYSQL.php
+panel/clases/error_log
+
+panel/clases/tcpdf/
+panel/clases/lib/
+
+panel/font-awesome/
+panel/fonts/
+panel/img/
+panel/js/*/
+
+#admin
+admin/.htaccess
+admin/*.rtf
+admin/*.docx
+admin/*.zip
+admin/assets/
+admin/images/
+admin/less/
+admin/log/
+admin/themes/
+admin/protected/components/
+admin/protected/config/main.php
+admin/protected/extensions/
+admin/protected/runtime/
+admin/protected/vendors/
+admin/protected/data/*.db
+admin/protected/*.zip
+admin/js/*/
+
+admin/protected/modules/user/components/
+admin/protected/modules/user/data/
+admin/protected/modules/user/messages/
+admin/protected/modules/user/migrations/
+
+# Blog
+blog/.htaccess
+blog/fonts/
+blog/img/
+blog/js/*/
